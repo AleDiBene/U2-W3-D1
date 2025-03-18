@@ -36,7 +36,7 @@ class Pet {
 }
 
 document.getElementById("petForm").addEventListener("submit", function (event) {
-  event.preventDefault(); // Evita il refresh della pagina
+  event.preventDefault();
 
   // Prendere i valori dal form
   const petName = document.getElementById("petName").value;
